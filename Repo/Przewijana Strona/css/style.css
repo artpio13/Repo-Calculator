@@ -1,0 +1,121 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+
+}
+body{
+	display:flex;
+	flex-direction:column;
+}
+section{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+	font-size:6em;
+	color:white;
+	width:100%;
+}
+.baner{
+	background:url(https://wallpaperaccess.com/full/427852.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	justify-content:flex-end;
+	padding-right:7%;
+}
+.baner .kratka{
+	font-size:1rem;
+	background:rgba(0,0,20,0,7);
+	width:400px;
+	min-height:450px;
+	display:flex;
+	padding:30px;
+	justify-content: space-betwen;
+	
+}
+.baner .kratka h1{
+	font-size:3rem;
+	font-height:200;
+	text-transparent:uppercase;
+}
+.baner .kratka p{
+	font-size:2.25rem;
+	text-align:center;
+	margin:20px 0;
+}
+.baner .kratka a{
+	color:red;
+	font-size:1.25rem;
+	text-decoration:none;
+	
+}
+.baner .kratka a{
+	width:100%;
+	padding:8px 16px;
+	text-align:center;
+}
+.baner .kratka a:hover{
+	background:dark;
+	border:1px solid #d00;
+	
+}
+.obrys{
+	background:yellow;
+}
+.obrys p{
+	font-weight:900;
+	box-shadow: 100px white;
+}
+.paralaxa{
+	background:url(https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	justify-content:flex-start;
+	padding-left:7%;
+}
+.paralaxa .kratka{
+	font-size:1rem;
+	background:rgba(0,0,20,0,7);
+	width:400px;
+	min-height:450px;
+	display:flex;
+	padding:30px;
+	justify-content: space-betwen;
+	
+}
+.paralaxa .kratka h1{
+	font-size:3rem;
+	font-height:200;
+	text-transparent:uppercase;
+}
+.paralaxa .kratka p{
+	font-size:2.25rem;
+	text-align:center;
+	margin:20px 0;
+}
+.paralaxa .kratka a{
+	color:red;
+	font-size:1.25rem;
+	text-decoration:none;
+	
+}
+.dziura{
+	
+}
+.dziura a{
+	font-weight:900;
+	background:url(https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	justify-content:flex-start;
+	padding-left:7%;
+}
+
+.panele{
+	background:green;
+}
